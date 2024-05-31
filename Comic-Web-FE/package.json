@@ -1,0 +1,60 @@
+{
+  "name": "comic-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 7777",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "5": "^0.0.1",
+    "aos": "^2.3.4",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "core-js": "^3.8.3",
+    "date-fns": "^3.6.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.7.1",
+    "moment": "^2.30.1",
+    "popper.js": "^1.16.1",
+    "router": "^2.0.0-beta.2",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.10.7",
+    "swiper": "^11.1.1",
+    "toast": "^0.5.4",
+    "vue": "^3.2.13",
+    "vue-multiselect": "^2.1.9",
+    "vue-router": "^4.3.0",
+    "vue-toast-notification": "^3.1.2",
+    "vue3-toastify": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
